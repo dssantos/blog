@@ -1,0 +1,122 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Danilo Santos</title>
+        <link>https://danilosantos.info/pt-br/posts/</link>
+        <description>Recent content in Posts on Danilo Santos</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-BR</language>
+        <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://danilosantos.info/pt-br/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Benefícios da Aromaterapia para o Bem-Estar</title>
+            <link>https://danilosantos.info/pt-br/posts/beneficios-aromaterapia/</link>
+            <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+            
+            <guid>https://danilosantos.info/pt-br/posts/beneficios-aromaterapia/</guid>
+            <description>A aromaterapia é uma prática milenar que utiliza óleos essenciais para promover relaxamento, alívio do estresse e bem-estar. Entre os óleos mais populares estão a lavanda, o eucalipto e o alecrim.
+Se você quer aprender como usar óleos essenciais no dia a dia, confira nosso guia prático.</description>
+            <content type="html"><![CDATA[<p>A aromaterapia é uma prática milenar que utiliza óleos essenciais para promover relaxamento, alívio do estresse e bem-estar. Entre os óleos mais populares estão a lavanda, o eucalipto e o alecrim.</p>
+<p>Se você quer aprender como usar óleos essenciais no dia a dia, confira nosso <a href="/pt-br/posts/escalda-pes-relaxante">guia prático</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Como Criar um Blog com Hugo</title>
+            <link>https://danilosantos.info/pt-br/posts/como-criar-blog-hugo/</link>
+            <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+            
+            <guid>https://danilosantos.info/pt-br/posts/como-criar-blog-hugo/</guid>
+            <description>Hugo é um gerador de sites estáticos rápido e flexível, ideal para criar blogs e sites pessoais. Neste guia, você aprenderá a configurar e publicar um blog utilizando Hugo e GitHub Pages.
+1. Instalando o Hugo Se você utiliza Linux, pode instalar o Hugo com o seguinte comando:
+sudo apt install hugo Para outros sistemas operacionais, consulte a documentação oficial.
+2. Criando o Projeto Escolha um diretório onde deseja armazenar o blog e execute os seguintes comandos:</description>
+            <content type="html"><![CDATA[<p>Hugo é um gerador de sites estáticos rápido e flexível, ideal para criar blogs e sites pessoais. Neste guia, você aprenderá a configurar e publicar um blog utilizando Hugo e GitHub Pages.</p>
+<h2 id="1-instalando-o-hugo">1. Instalando o Hugo</h2>
+<p>Se você utiliza Linux, pode instalar o Hugo com o seguinte comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install hugo
+</span></span></code></pre></div><p>Para outros sistemas operacionais, consulte a <a href="https://gohugo.io/getting-started/installing/">documentação oficial</a>.</p>
+<h2 id="2-criando-o-projeto">2. Criando o Projeto</h2>
+<p>Escolha um diretório onde deseja armazenar o blog e execute os seguintes comandos:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p ~/dev/hugo/blog
+</span></span><span style="display:flex;"><span>cd ~/dev/hugo/blog
+</span></span><span style="display:flex;"><span>hugo new site blog
+</span></span><span style="display:flex;"><span>cd blog
+</span></span></code></pre></div><h2 id="3-configurando-o-git-e-o-tema">3. Configurando o Git e o Tema</h2>
+<p>Inicialize o repositório Git:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span></code></pre></div><p>Escolha um tema na <a href="https://themes.gohugo.io/">galeria de temas</a> e instale-o como submódulo Git:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+</span></span></code></pre></div><p>Defina o tema no arquivo <code>hugo.toml</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;theme = &#39;hello-friend-ng&#39;&#34;</span> &gt;&gt; hugo.toml
+</span></span></code></pre></div><h2 id="4-rodando-o-servidor-local">4. Rodando o Servidor Local</h2>
+<p>Para visualizar o blog localmente, execute:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><p>Acesse no navegador: <a href="http://localhost:1313/">http://localhost:1313/</a>.</p>
+<h2 id="5-criando-uma-publicação">5. Criando uma Publicação</h2>
+<p>Adicione um novo post:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new content/pt/posts/hello-world.md
+</span></span></code></pre></div><p>Edite o arquivo gerado (<code>content/pt/posts/hello-world.md</code>) para personalizar o conteúdo.</p>
+<h2 id="6-publicando-no-github-pages">6. Publicando no GitHub Pages</h2>
+<p>Crie um repositório no GitHub com o nome <code>&lt;SEU_USUARIO&gt;.github.io</code> e envie o projeto:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/&lt;SEU_USUARIO&gt;/&lt;SEU_USUARIO&gt;.github.io.git
+</span></span><span style="display:flex;"><span>git branch -M main
+</span></span><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div><p>Crie o arquivo <code>.github/workflows/hugo.yaml</code> para automatizar a publicação. Veja um exemplo de configuração <a href="https://gist.github.com/thisismikekelly/1a24ad2c8c923127dc3cb29edca13746">aqui</a>.</p>
+<p>No GitHub:</p>
+<ol>
+<li>Vá em <em>Settings</em> &gt; <em>Pages</em> e defina o <em>Source</em> como &lsquo;GitHub Actions&rsquo;.</li>
+<li>Vá em <em>Actions</em> e execute o workflow.</li>
+<li>Acesse <code>&lt;SEU_USUARIO&gt;.github.io</code> para visualizar seu blog online.</li>
+</ol>
+<h2 id="7-personalização-opcional">7. Personalização (Opcional)</h2>
+<ul>
+<li>Edite <code>hugo.toml</code> para ajustar configurações como título e metadados.</li>
+<li><a href="https://dev.to/feministclickback/how-to-add-a-language-switcher-to-your-hugo-site-2oh6">Adicione um botão de troca de idioma</a>.</li>
+<li>Experimente diferentes temas e layouts para personalizar seu blog.</li>
+</ul>
+<p>Agora você tem um blog funcional utilizando Hugo! 🚀</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Como Escolher o Melhor Sabonete Natural para Sua Pele</title>
+            <link>https://danilosantos.info/pt-br/posts/escolher-sabonete-natural/</link>
+            <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+            
+            <guid>https://danilosantos.info/pt-br/posts/escolher-sabonete-natural/</guid>
+            <description>Os sabonetes naturais são uma excelente alternativa para quem busca produtos livres de químicos agressivos. Sabonetes de lavanda, calêndula e carvão ativado são algumas das opções mais populares.
+Veja também os benefícios da aromaterapia e como eles se relacionam com a escolha do sabonete ideal.</description>
+            <content type="html"><![CDATA[<p>Os sabonetes naturais são uma excelente alternativa para quem busca produtos livres de químicos agressivos. Sabonetes de lavanda, calêndula e carvão ativado são algumas das opções mais populares.</p>
+<p>Veja também os <a href="/beneficios-aromaterapia">benefícios da aromaterapia</a> e como eles se relacionam com a escolha do sabonete ideal.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Escalda-pés: Uma Rotina Simples para Relaxar Após um Dia Cansativo</title>
+            <link>https://danilosantos.info/pt-br/posts/escalda-pes-relaxante/</link>
+            <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+            
+            <guid>https://danilosantos.info/pt-br/posts/escalda-pes-relaxante/</guid>
+            <description>Um escalda-pés pode ajudar a aliviar tensões e melhorar a circulação sanguínea. Adicionar óleos essenciais como hortelã-pimenta ou lavanda potencializa os benefícios.
+Aprenda a escolher o melhor sabonete natural para complementar sua rotina de autocuidado.</description>
+            <content type="html"><![CDATA[<p>Um escalda-pés pode ajudar a aliviar tensões e melhorar a circulação sanguínea. Adicionar óleos essenciais como hortelã-pimenta ou lavanda potencializa os benefícios.</p>
+<p>Aprenda a escolher o <a href="/escolher-sabonete-natural">melhor sabonete natural</a> para complementar sua rotina de autocuidado.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Olá Mundo</title>
+            <link>https://danilosantos.info/pt-br/posts/ola-mundo/</link>
+            <pubDate>Tue, 31 Dec 2024 01:37:59 -0300</pubDate>
+            
+            <guid>https://danilosantos.info/pt-br/posts/ola-mundo/</guid>
+            <description>Título // seu código aqui &amp;lt;h1&amp;gt;Olá&amp;lt;/h1&amp;gt; </description>
+            <content type="html"><![CDATA[<h1 id="título">Título</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>  // seu código aqui
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h1</span>&gt;Olá&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span></code></pre></div>]]></content>
+        </item>
+        
+    </channel>
+</rss>
