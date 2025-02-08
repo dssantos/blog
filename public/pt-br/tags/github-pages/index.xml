@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>GitHub Pages on Danilo Santos</title>
-    <link>https://danilosantos.info/pt-br/tags/github-pages/</link>
-    <description>Recent content in GitHub Pages on Danilo Santos</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt-BR</language>
-    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://danilosantos.info/pt-br/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Como Criar um Blog com Hugo</title>
-      <link>https://danilosantos.info/pt-br/posts/como-criar-blog-hugo/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://danilosantos.info/pt-br/posts/como-criar-blog-hugo/</guid>
-      <description>Hugo é um gerador de sites estáticos rápido e flexível, ideal para criar blogs e sites pessoais. Neste guia, você aprenderá a configurar e publicar um blog utilizando Hugo e GitHub Pages.&#xA;1. Instalando o Hugo Se você utiliza Linux, pode instalar o Hugo com o seguinte comando:&#xA;sudo apt install hugo Para outros sistemas operacionais, consulte a documentação oficial.&#xA;2. Criando o Projeto Escolha um diretório onde deseja armazenar o blog e execute os seguintes comandos:</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub Pages on Danilo Santos</title><link>https://dssantos.github.io/pt-br/tags/github-pages/</link><description>Recent content in GitHub Pages on Danilo Santos</description><generator>Hugo -- gohugo.io</generator><language>pt-BR</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dssantos.github.io/pt-br/tags/github-pages/index.xml" rel="self" type="application/rss+xml"/><item><title>Como Criar um Blog com Hugo</title><link>https://dssantos.github.io/pt-br/posts/como-criar-blog-hugo/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://dssantos.github.io/pt-br/posts/como-criar-blog-hugo/</guid><description>Hugo é um gerador de sites estáticos rápido e flexível, ideal para criar blogs e sites pessoais. Neste guia, você aprenderá a configurar e publicar um blog utilizando Hugo e GitHub Pages.
+1. Instalando o Hugo Se você utiliza Linux, pode instalar o Hugo com o seguinte comando:
+sudo apt install hugo Para outros sistemas operacionais, consulte a documentação oficial.
+2. Criando o Projeto Escolha um diretório onde deseja armazenar o blog e execute os seguintes comandos:</description></item></channel></rss>
